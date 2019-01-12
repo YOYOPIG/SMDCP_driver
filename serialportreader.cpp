@@ -169,9 +169,9 @@ void SerialPortReader::toggleKey(QByteArray keyCode)
         keyDown(keyMap.value("y"));
     else if(keyCode=="y")
         keyRelease(keyMap.value("y"));
-    else if(keyCode=="S")
+    else if(keyCode=="P")
         keyDown(keyMap.value("esc"));
-    else if(keyCode=="s")
+    else if(keyCode=="p")
         keyRelease(keyMap.value("esc"));
     else if(keyCode=="V")
         keyDown(keyMap.value("v"));
